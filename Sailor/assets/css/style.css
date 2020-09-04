@@ -471,6 +471,41 @@ h1, h2, h3, h4, h5, h6 {
   background: #d9232d;
 }
 
+/* button style */
+
+.user-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #d9232d;
+}
+
+.user-button:hover {
+  background: #df3740;
+}
+
+.result-box {
+  height:500px;
+  width:800px;
+  border:3px 
+  solid #ccc;
+  font-family:sans-serif;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  margin-top:20px;
+}
+
+/* button stype */
+
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
